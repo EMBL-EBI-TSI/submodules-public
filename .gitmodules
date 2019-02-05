@@ -1,0 +1,3 @@
+[submodule "/Users/navis/git/submodules-public/src/main/java/com/example/submodules/submodules_private"]
+	path = /Users/navis/git/submodules-public/src/main/java/com/example/submodules/submodules_private
+	url = https://github.com/embl-ebi-sdo/submodules-private.git
