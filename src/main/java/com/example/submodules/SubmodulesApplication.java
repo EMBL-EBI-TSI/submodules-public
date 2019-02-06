@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SubmodulesApplication implements CommandLineRunner {
-	
+
 	@Autowired
-	private SubService service;
+	private SubService subService;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SubmodulesApplication.class, args);
@@ -17,7 +17,7 @@ public class SubmodulesApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println(service.introduceYourself());
-		
+		System.out.println("Change which will go from Dev to Master");
+		System.out.println(subService.introduceYourself());
 	}
 }
